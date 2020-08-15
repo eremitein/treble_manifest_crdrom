@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="caos" fetch="https://github.com/eremitein/" />
+<remove-project name="LineageOS/android_packages_apps_Gallery2" />
+<project path="packages/apps/SimpleGallery" name="packages_apps_SimpleGallery_caos" remote="caos" revision="v217" />
+<remove-project name="crdroidandroid/android_packages_apps_Messaging" />
+<project path="packages/apps/Messaging" name="packages_apps_Messaging_caos" remote="caos" revision="v221" />
+<remove-project name="crdroidandroid/android_packages_apps_Contacts" />
+<project path="packages/apps/Contacts" name="packages_apps_Contacts_caos" remote="caos" revision="v221" />
+<remove-project name="crdroidandroid/android_packages_apps_Dialer" />
+<project path="packages/apps/Dialer" name="packages_apps_Dialer_caos" remote="caos" revision="v221" />
+<remove-project name="LineageOS/android_external_chromium-webview" />
+<project path="external/chromium-webview" name="external_chromium-webview_caos" remote="caos" revision="v222" clone-depth="1" />
+</manifest>
