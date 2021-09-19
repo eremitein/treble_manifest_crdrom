@@ -6,4 +6,7 @@
 <project path="vendor/vndk-tests" name="vendor_vndk-tests" remote="phh" revision="master" />
 <project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="android-11.0" />
 <project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="android-10.0" />
+<remote name="notmyst33d" fetch="https://github.com/notmyst33d/" />
+<project path="external/aptx" name="libaptX" remote="notmyst33d" revision="main" />
+<project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="los" revision="lineage-18.1" />
 </manifest>

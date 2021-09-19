@@ -3,6 +3,8 @@
 <remote name="los" fetch="https://github.com/LineageOS" />
 <remote name="caos" fetch="https://github.com/eremitein/" />
 <remove-project name="crdroidandroid/android_packages_apps_Updater" />
+<remove-project name="crdroidandroid/android_packages_apps_Matlog" />
+<remove-project name="crdroidandroid/android_packages_apps_crDroidMusic" />
 <!--
 <remove-project name="crdroidandroid/android_frameworks_opt_telephony" />
 <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="los" revision="lineage-18.1" />
