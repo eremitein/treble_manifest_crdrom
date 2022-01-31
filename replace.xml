@@ -17,4 +17,6 @@
 <project path="packages/apps/SimpleGallery" name="packages_apps_SimpleGallery_caos" remote="caos" revision="v300" />
 <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
 <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="los" revision="lineage-18.1" />
+<remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
+<project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="los" revision="lineage-18.1" />
 </manifest>
